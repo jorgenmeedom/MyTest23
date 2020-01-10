@@ -1,0 +1,489 @@
+﻿<repository
+id="de01721f-d01c-4b80-92f7-bd9bc3adccea"
+name="MyTest23Repository">
+	<codegen
+	classname="MyTest23Repository"
+	namespace="MyTest23">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="24380eb5-eb83-4abe-8a60-36d81d3e3ef1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="136ddaac-114f-4a54-9ff5-2a8b314bcd83"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="fa3d79e0-8110-474e-a705-63981eb8f1fa"
+		isrooted="True"
+		name="RebuildingMysqlRemovingDataSavedTo"
+		refpath="/dom[@domain='github.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="880230fa-f765-42c0-af14-29e60edb3111"
+			name="JsCommentContainerTimelineItem"
+			refimgid="b767c93b-c48f-43ca-9aed-ee59585463f8"
+			refpath="/dom[@domain='github.com']//div[#'discussion_bucket']/div[1]/div/div[1]/div[3]/div"
+			searchtimeout="30000ms">
+				/dom[@domain='github.com']//div[#'discussion_bucket']/div[1]/div/div[1]/div[3]/div
+			</item>
+			<basepath>
+				/dom[@domain='github.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="deef4d75-51cd-4841-bfe2-1028f21f7ee1"
+		isrooted="True"
+		name="MeedomComJorgenMeedomdkPhpGoogleC"
+		refpath="/form[@title='meedom.com/jorgen/meedomdk.php – Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="4b8a0dec-c2e6-43f6-b9e3-2f6e8e359a73"
+			name="AdresseOgSogelinje"
+			refimgid="e79fc497-5efb-4f1b-922a-1d1165919c25"
+			refpath="/form[@title>'meedom.com/jorgen/meedomdk.php']/container/container/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og søgelinje']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'meedom.com/jorgen/meedomdk.php']/container[@accessiblename&gt;'meedom.com/jorgen/meedomdk.php']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og s&#248;gelinje']
+			</item>
+			<item
+			addcaps="tabpagelist,accessible"
+			capname="tabpagelist"
+			id="6f066097-71e1-4a7d-93f6-778c0c27271d"
+			name="PageTabList"
+			refimgid="138e579c-d3c0-49c3-81ea-40bbfe0eaa89"
+			refpath="/form[@title>'Rediger indlæg ‹ Meedom —']/container/container/container[2]/container[1]/container[1]/tabpagelist[@accessiblerole='PageTabList']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'meedom.com/jorgen/meedomdk.php']/container[@accessiblename&gt;'Rediger indl&#230;g &#8249; Meedom &#8212;']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']
+			</item>
+			<basepath>
+				/form[@title&gt;'meedom.com/jorgen/meedomdk.php']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKrSURBVDhPrY9fSBNxHMAHPtpDaWlZLZCisPK9
+9ObdqXNzujnX5aazpqKRkQ8qgQQJvVQajQgCbW428y3RSX/UoYiGVJv9sSm6u0KqUWRlDtvSu33p
+fr87hxG99YUP93Kfz/f7U/zXqc/I2MKWa5g5U0EvV6rmOKN6lTPkrbEGOsTp6eEZPdnYlJmeIv/+
+97yvt9k5kwbYUjWwJXkSelqEgmBRDgR1KhFi8fvgoFJWpLHmZya+qimzL5gKovGAcVOgWAzo5ICW
+gLfGgrGm9E2XZN+qZDzabAiIP0pyviSX6YC1FAlBEy0EjQTPGrN5tuQ4zxqO8ZyZcDOMIgEHDvRU
+91LtFhgykLBQkgvvzlXBfJ8Hej1crPPBR35ifGItNNIc/TpARMOPiEhkRBWJjhJL3MPcoziwz13D
+Ke9Ww8U6DUyLp873DYLpRhiK2sKguxaG4vYwzARDsP66GmL+PAkfBcI0bcUBUV5FAbLdDMPFJNqM
+ZUShGNBeDUODcwWWZ9tkORcH4AXVjAN7um1rIoCobS2Djv4PePOGjLDdXoEvgZtygJYCfqoFB9K6
+baHdoozY76wC57iPR9uRqLkifd3j34SfgWZBkhEkCP6cWhxQ3rMN73Kdgg0qh67D1MInOC+ejTa7
+xpZgZq4/9uu5Gm/G7/erBHijzcKBtM6KxlRnJaSK8k4cOQ3E/Qtw1tsBDV4XNHguwecprbwZBUiI
+TdOTLnvOVhxINGam7HBaF0VAogKzvasCkjotYB/Qxzfj032q5dYzygwsb0xHwKtUuqvGkIRI7irH
+HHQwsPgkf5NMLguzdYys/TnoklRHeU+Sw/Jjm8MCSXfM8NhbGMNv9qkE3kdPXq7fe1j+/R/DMAmH
+HCePJHeZraqeE42Rp1SL8IyqXX+pzYq/OT4KxW9HQeOvzs+EMAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="e58a3542-f442-4cca-a049-971017e0f4cf"
+		isrooted="True"
+		name="MeedomComJorgenMeedomdkPhp"
+		refimgid="f5bd08eb-bf96-4080-a7fd-cfd69ba1c842"
+		refpath="/dom[@domain='meedom.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='meedom.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="679402c5-a5bd-4d32-8999-c69b68ad2f07"
+		isrooted="True"
+		name="WordPressInstallation"
+		refimgid="ec7f0981-8d56-494a-8a45-cf5680936896"
+		refpath="/dom[@domain='localhost']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="383a1387-5da3-4bea-a002-63377e2f3cf3"
+			name="DaDK"
+			refimgid="b5b28c8d-f482-4cae-a08d-6fc827e3d513"
+			refpath="/dom[@domain='localhost']//select[#'language']/option[@value='da_DK']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//select[#'language']/option[@value='da_DK']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="767ce1fe-3559-4c48-b2b6-4a4fb3bc8e60"
+			name="LanguageContinue"
+			refimgid="8008e10d-b9a1-41c2-a9c2-2141e9824721"
+			refpath="/dom[@domain='localhost']//input[#'language-continue']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'language-continue']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9a7df755-9a30-47a2-a979-ba5868dab223"
+			name="WeblogTitle"
+			refimgid="c838a273-b8c3-4b89-a6ce-07c3589c524e"
+			refpath="/dom[@domain='localhost']//input[#'weblog_title']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'weblog_title']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8d827f22-b01a-409a-b888-bfa0f2235398"
+			name="UserLogin"
+			refimgid="5137d5ce-8f71-4629-bc6e-f2383c583c42"
+			refpath="/dom[@domain='localhost']//input[#'user_login']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'user_login']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3dc86b10-8c57-4bd2-a1e3-f2fda9c6f598"
+			name="AdminEmail"
+			refimgid="bd391d8c-881e-43c5-aee3-3c10f5b80667"
+			refpath="/dom[@domain='localhost']//input[#'admin_email']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'admin_email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5817c855-6be6-4d08-a337-f278a062e4d0"
+			name="Submit"
+			refimgid="9fae99cb-652a-49b1-b523-bc6a1afd78d6"
+			refpath="/dom[@domain='localhost']//input[#'submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="61d50a52-2471-4470-89f2-39bb33dfbada"
+			name="LogInd"
+			refimgid="53896f13-c37c-4594-a2bc-c6a0ef4ad7e7"
+			refpath="/dom[@domain='localhost']/body/p[3]/a[@innertext='Log ind']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']/body/p[3]/a[@innertext='Log ind']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5a302508-2866-49d1-afc5-bb182774c100"
+			name="WpSubmit"
+			refimgid="b1636469-98d9-47a4-a58d-e73416e8b557"
+			refpath="/dom[@domain='localhost']//input[#'wp-submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'wp-submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="989b25fa-61bd-4568-a444-4929a399dcea"
+			name="Content"
+			refimgid="1b3b64ab-daf0-4421-973c-d1b19fc4aa40"
+			refpath="/dom[@domain='localhost']//textarea[#'content']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//textarea[#'content']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f4b6474c-23b1-4923-88ce-dc420dbb7b2b"
+			name="SavePost"
+			refimgid="8f4cb96c-ff51-40bc-8145-9c1bb03a5798"
+			refpath="/dom[@domain='localhost']//input[#'save-post']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'save-post']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="718a3a78-2146-4a6e-91ca-a418aff259df"
+			name="Inside"
+			refimgid="b6c7599b-ca93-4441-aaec-06f7b15a84f8"
+			refpath="/dom[@domain='localhost']//div[#'dashboard_quick_press']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//div[#'dashboard_quick_press']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="0eaa612e-2fef-4cdb-b936-c7cc2d3b61c8"
+			name="DenGodeHistorieOvigsSenesteBogOm"
+			refimgid="4e8c5482-dd1f-4337-adc2-416685b7995b"
+			refpath="/dom[@domain='localhost']//main[#'site-content']/article/div[1]/div/p[@innertext='Den gode historie. Øvigs seneste bog om sin mor. Har netop læst den. Meget stort indtryk efterlades']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//main[#'site-content']/article//p[@innertext&gt;'Den gode historie. &#216;vigs seneste']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f250d7ac-42cf-44a1-8b9b-8091aa2641d0"
+			isrooted="True"
+			name="EditPostLayout"
+			refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="0127aafb-2675-403c-b715-7db29de577ef"
+				name="Udgiv"
+				refimgid="20e578c9-35e1-44f8-ace6-150d90fa6712"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[1]/div[2]/div[1]/button[@innertext='Udgiv...']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[1]/div[2]/div[1]/button[@innertext='Udgiv...']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="1f53b2e6-d8e2-49b5-b4bf-ee0ed910d29b"
+				name="VisIndlaeg"
+				refimgid="ea869941-6001-4d91-9393-98c659486bed"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[2]/div[3]/div/div/div/div/a[@innertext='Vis indlæg']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[2]/div[3]//div[@innertext='Indl&#230;g udgivet.']/a[@innertext='Vis indl&#230;g']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="85414e1a-3b39-4300-8280-774100c0338d"
+				name="BlockLibraryClassicToolbarHasAdvan"
+				refimgid="c97f0141-2aa6-4bb4-bbac-2bbe2b6853c8"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[2]/div[4]/div/div/div[1]/div/div/div[2]/div[1]/div[3]/div[2]/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[2]/div[4]/div/div/div[1]/div/div/div[2]/div[1]/div[3]/div[2]/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="d739081a-a96a-4026-b3e7-357d78995020"
+				name="BlockEditorWritingFlowClickRedirec"
+				refimgid="a8bb04b3-9c56-4278-a5dd-8f603ffa869a"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[2]/div[4]/div/div/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[2]/div[4]/div/div/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="5f848014-17c0-44d7-82fe-a8f3953f6cbd"
+				name="Udgiv1"
+				refimgid="bd48dc8b-5ccb-4de0-92b9-c4a7d0f212b5"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[1]/div/div/button[@innertext='Udgiv']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[1]/div/div/button[@innertext='Udgiv']
+				</item>
+				<item
+				addcaps="unknown,webelement,strongtag"
+				capname="strongtag"
+				id="27e502e6-de75-4d00-93c4-c263ffa4b7d3"
+				name="ErDuKlarTilAtUdgive"
+				refimgid="577f762c-08cf-4a8b-89a6-f2b32a00ecc6"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[2]/div/div[1]/strong[@innertext='Er du klar til at udgive?']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[2]/div/div[1]/strong[@innertext='Er du klar til at udgive?']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="4868a310-1eb4-4418-b678-6feee342a880"
+				name="Ojeblikkeligt"
+				refimgid="5c909657-aa32-42ce-adf1-0668468a870c"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[2]/div/div[3]/h2/button/span[@innertext='Øjeblikkeligt']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[2]/div/div[3]/?/?/button[@innertext='Udgiv:']/span[@innertext='&#216;jeblikkeligt']
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="67b674a2-21fb-44b5-b57d-0e7860d4825a"
+				name="TdTag10"
+				refimgid="1e05faf8-c613-4b54-8d64-ce4b1aa21211"
+				refpath="/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[2]/td[@innertext='10']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'editor']/div/div/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/?/?/table/tbody/tr[2]/td[@innertext='10']
+				</item>
+				<basepath>
+					/dom[@domain='localhost']//div[#'editor']/div/div/div
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="b8b82088-f673-4c15-a57a-8717d299c5a4"
+			isrooted="True"
+			name="Setup"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="c4599117-974c-47a8-a388-6142097b5e54"
+				name="Step"
+				refimgid="fe33ccbc-9511-4474-88c6-ded995e92db7"
+				refpath="/dom[@domain='localhost']//form[#'setup']/p"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'setup']/p
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="d1912b61-5a80-41b4-96e9-c145065b91fc"
+				name="PwWeak"
+				refimgid="312d5116-84a5-40a7-b4c3-4c0e7a0ae445"
+				refpath="/dom[@domain='localhost']//form[#'setup']/table/tbody/tr[5]/td/label/input[@name='pw_weak']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'setup']/table//label[@innertext&gt;'Bekr&#230;ft brug af svag']/input[@name='pw_weak']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="33f738d6-0871-4a3e-b499-89cfe8f57868"
+				name="AdminPassword"
+				refimgid="8250563f-ae0f-4fbd-871a-bf693411ea77"
+				refpath="/dom[@domain='localhost']//form[#'setup']/table/tbody/tr[3]/td/div/input[@name='admin_password']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'setup']/table/tbody/tr[3]//input[@name='admin_password']
+				</item>
+				<basepath>
+					/dom[@domain='localhost']//form[#'setup']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,tabletag"
+			capname="table"
+			id="d164e918-5ed5-4496-a092-66d9a8566ef6"
+			isrooted="True"
+			name="FormTableInstallSuccess"
+			refpath="/dom[@domain='localhost']/body/table"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="9e49fa78-886b-48aa-a8cd-347047923b9c"
+				name="Jmeedom"
+				refimgid="d104d6d3-10dd-45d5-abd2-6f5121d42616"
+				refpath="/dom[@domain='localhost']/body/table/tbody/tr[1]/td[@innertext='jmeedom']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']/body/table//td[@innertext='jmeedom']
+				</item>
+				<item
+				addcaps="unknown,webelement,emtag"
+				capname="emtag"
+				id="a2ccfaf4-bd5e-413c-9b36-bbe330736e6e"
+				name="DinValgteAdgangskode"
+				refimgid="6947257b-306e-4957-91d4-a8e0d3673521"
+				refpath="/dom[@domain='localhost']/body/table/tbody/tr[2]/td/p/em[@innertext='Din valgte adgangskode.']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']/body/table/tbody/tr[2]//em[@innertext='Din valgte adgangskode.']
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="43cb72e3-c55d-4fed-b50d-567222de2307"
+				name="SomeTdTag"
+				refimgid="c56a1f4a-bdb5-4207-9c3d-41fe125173a0"
+				refpath="/dom[@domain='localhost']/body/table/tbody/tr[2]/td"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']/body/table/tbody/tr[2]/td
+				</item>
+				<basepath>
+					/dom[@domain='localhost']/body/table
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='localhost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
