@@ -32,6 +32,8 @@ namespace MyTest23
         MyTest23RepositoryFolders.MeedomComJorgenMeedomdkPhpGoogleCAppFolder _meedomcomjorgenmeedomdkphpgooglec;
         MyTest23RepositoryFolders.MeedomComJorgenMeedomdkPhpAppFolder _meedomcomjorgenmeedomdkphp;
         MyTest23RepositoryFolders.WordPressInstallationAppFolder _wordpressinstallation;
+        MyTest23RepositoryFolders.NyFaneGoogleChromeAppFolder _nyfanegooglechrome;
+        MyTest23RepositoryFolders.NyFaneAppFolder _nyfane;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyTest23Repository element repository.
@@ -53,6 +55,8 @@ namespace MyTest23
             _meedomcomjorgenmeedomdkphpgooglec = new MyTest23RepositoryFolders.MeedomComJorgenMeedomdkPhpGoogleCAppFolder(this);
             _meedomcomjorgenmeedomdkphp = new MyTest23RepositoryFolders.MeedomComJorgenMeedomdkPhpAppFolder(this);
             _wordpressinstallation = new MyTest23RepositoryFolders.WordPressInstallationAppFolder(this);
+            _nyfanegooglechrome = new MyTest23RepositoryFolders.NyFaneGoogleChromeAppFolder(this);
+            _nyfane = new MyTest23RepositoryFolders.NyFaneAppFolder(this);
         }
 
 #region Variables
@@ -114,6 +118,24 @@ namespace MyTest23
         public virtual MyTest23RepositoryFolders.WordPressInstallationAppFolder WordPressInstallation
         {
             get { return _wordpressinstallation; }
+        }
+
+        /// <summary>
+        /// The NyFaneGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("f7b1980f-ac83-405a-a951-18633b41c2fb")]
+        public virtual MyTest23RepositoryFolders.NyFaneGoogleChromeAppFolder NyFaneGoogleChrome
+        {
+            get { return _nyfanegooglechrome; }
+        }
+
+        /// <summary>
+        /// The NyFane folder.
+        /// </summary>
+        [RepositoryFolder("95a81178-cf32-44a5-9b71-6708677d5bb2")]
+        public virtual MyTest23RepositoryFolders.NyFaneAppFolder NyFane
+        {
+            get { return _nyfane; }
         }
     }
 
@@ -382,6 +404,13 @@ namespace MyTest23
             RepoItemInfo _savepostInfo;
             RepoItemInfo _insideInfo;
             RepoItemInfo _dengodehistorieovigssenestebogomInfo;
+            RepoItemInfo _languageInfo;
+            RepoItemInfo _titleInfo;
+            RepoItemInfo _tilpasditwebstedInfo;
+            RepoItemInfo _h3tagfarverInfo;
+            RepoItemInfo _customInfo;
+            RepoItemInfo _irisslideroffsetuicorneralluislidInfo;
+            RepoItemInfo _saveInfo;
 
             /// <summary>
             /// Creates a new WordPressInstallation  folder.
@@ -404,6 +433,13 @@ namespace MyTest23
                 _savepostInfo = new RepoItemInfo(this, "SavePost", ".//input[#'save-post']", 30000, null, "f4b6474c-23b1-4923-88ce-dc420dbb7b2b");
                 _insideInfo = new RepoItemInfo(this, "Inside", ".//div[#'dashboard_quick_press']/div", 30000, null, "718a3a78-2146-4a6e-91ca-a418aff259df");
                 _dengodehistorieovigssenestebogomInfo = new RepoItemInfo(this, "DenGodeHistorieOvigsSenesteBogOm", ".//main[#'site-content']/article//p[@innertext>'Den gode historie. Øvigs seneste']", 30000, null, "0eaa612e-2fef-4cdb-b936-c7cc2d3b61c8");
+                _languageInfo = new RepoItemInfo(this, "Language", ".//select[#'language']", 30000, null, "7706c093-9c04-4040-8f52-729d988bece9");
+                _titleInfo = new RepoItemInfo(this, "Title", ".//input[#'title']", 30000, null, "cb8306c0-7bf5-4e6a-b8ad-dab2eb3847be");
+                _tilpasditwebstedInfo = new RepoItemInfo(this, "TilpasDitWebsted", ".//div[#'welcome-panel']/div/div/div[1]/a[1]", 30000, null, "77f0374a-60f7-4b0a-9704-9eadbda64c06");
+                _h3tagfarverInfo = new RepoItemInfo(this, "H3TagFarver", ".//li[#'accordion-section-colors']/h3[@innertext='Farver']", 30000, null, "188de965-b968-4361-b0e6-fc1a8bc64715");
+                _customInfo = new RepoItemInfo(this, "Custom", ".//li[#'customize-control-accent_hue_active']/?/?/label[@innertext='Custom']", 30000, null, "71d2bbb0-2eeb-452d-88d8-588d07b566fe");
+                _irisslideroffsetuicorneralluislidInfo = new RepoItemInfo(this, "IrisSliderOffsetUiCornerAllUiSlid", ".//li[#'customize-control-accent_hue']/div[2]/label/div/div/div[2]/div", 30000, null, "c3e89168-dca9-4733-8c12-54ef9a01ea1e");
+                _saveInfo = new RepoItemInfo(this, "Save", ".//input[#'save']", 30000, null, "85ea9211-cab2-44eb-a802-0dbb45e6b9af");
             }
 
             /// <summary>
@@ -715,6 +751,174 @@ namespace MyTest23
                 get
                 {
                     return _dengodehistorieovigssenestebogomInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Language item.
+            /// </summary>
+            [RepositoryItem("7706c093-9c04-4040-8f52-729d988bece9")]
+            public virtual Ranorex.SelectTag Language
+            {
+                get
+                {
+                    return _languageInfo.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Language item info.
+            /// </summary>
+            [RepositoryItemInfo("7706c093-9c04-4040-8f52-729d988bece9")]
+            public virtual RepoItemInfo LanguageInfo
+            {
+                get
+                {
+                    return _languageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Title item.
+            /// </summary>
+            [RepositoryItem("cb8306c0-7bf5-4e6a-b8ad-dab2eb3847be")]
+            public virtual Ranorex.InputTag Title
+            {
+                get
+                {
+                    return _titleInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Title item info.
+            /// </summary>
+            [RepositoryItemInfo("cb8306c0-7bf5-4e6a-b8ad-dab2eb3847be")]
+            public virtual RepoItemInfo TitleInfo
+            {
+                get
+                {
+                    return _titleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TilpasDitWebsted item.
+            /// </summary>
+            [RepositoryItem("77f0374a-60f7-4b0a-9704-9eadbda64c06")]
+            public virtual Ranorex.ATag TilpasDitWebsted
+            {
+                get
+                {
+                    return _tilpasditwebstedInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TilpasDitWebsted item info.
+            /// </summary>
+            [RepositoryItemInfo("77f0374a-60f7-4b0a-9704-9eadbda64c06")]
+            public virtual RepoItemInfo TilpasDitWebstedInfo
+            {
+                get
+                {
+                    return _tilpasditwebstedInfo;
+                }
+            }
+
+            /// <summary>
+            /// The H3TagFarver item.
+            /// </summary>
+            [RepositoryItem("188de965-b968-4361-b0e6-fc1a8bc64715")]
+            public virtual Ranorex.H3Tag H3TagFarver
+            {
+                get
+                {
+                    return _h3tagfarverInfo.CreateAdapter<Ranorex.H3Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The H3TagFarver item info.
+            /// </summary>
+            [RepositoryItemInfo("188de965-b968-4361-b0e6-fc1a8bc64715")]
+            public virtual RepoItemInfo H3TagFarverInfo
+            {
+                get
+                {
+                    return _h3tagfarverInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Custom item.
+            /// </summary>
+            [RepositoryItem("71d2bbb0-2eeb-452d-88d8-588d07b566fe")]
+            public virtual Ranorex.LabelTag Custom
+            {
+                get
+                {
+                    return _customInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Custom item info.
+            /// </summary>
+            [RepositoryItemInfo("71d2bbb0-2eeb-452d-88d8-588d07b566fe")]
+            public virtual RepoItemInfo CustomInfo
+            {
+                get
+                {
+                    return _customInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IrisSliderOffsetUiCornerAllUiSlid item.
+            /// </summary>
+            [RepositoryItem("c3e89168-dca9-4733-8c12-54ef9a01ea1e")]
+            public virtual Ranorex.DivTag IrisSliderOffsetUiCornerAllUiSlid
+            {
+                get
+                {
+                    return _irisslideroffsetuicorneralluislidInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IrisSliderOffsetUiCornerAllUiSlid item info.
+            /// </summary>
+            [RepositoryItemInfo("c3e89168-dca9-4733-8c12-54ef9a01ea1e")]
+            public virtual RepoItemInfo IrisSliderOffsetUiCornerAllUiSlidInfo
+            {
+                get
+                {
+                    return _irisslideroffsetuicorneralluislidInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Save item.
+            /// </summary>
+            [RepositoryItem("85ea9211-cab2-44eb-a802-0dbb45e6b9af")]
+            public virtual Ranorex.InputTag Save
+            {
+                get
+                {
+                    return _saveInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Save item info.
+            /// </summary>
+            [RepositoryItemInfo("85ea9211-cab2-44eb-a802-0dbb45e6b9af")]
+            public virtual RepoItemInfo SaveInfo
+            {
+                get
+                {
+                    return _saveInfo;
                 }
             }
 
@@ -1226,6 +1430,138 @@ namespace MyTest23
                 get
                 {
                     return _sometdtagInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The NyFaneGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f7b1980f-ac83-405a-a951-18633b41c2fb")]
+        public partial class NyFaneGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _adresseogsogelinjeInfo;
+            RepoItemInfo _adresseogsogelinje1Info;
+
+            /// <summary>
+            /// Creates a new NyFaneGoogleChrome  folder.
+            /// </summary>
+            public NyFaneGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("NyFaneGoogleChrome", "/form[@title='Ny fane – Google Chrome']", parentFolder, 30000, null, true, "f7b1980f-ac83-405a-a951-18633b41c2fb", "")
+            {
+                _adresseogsogelinjeInfo = new RepoItemInfo(this, "AdresseOgSogelinje", "container[@accessiblename='Ny fane – Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og søgelinje']", 30000, null, "851e2ccc-f230-4ece-8495-b6d26bb168ae");
+                _adresseogsogelinje1Info = new RepoItemInfo(this, "AdresseOgSogelinje1", "container[@accessiblename>'localhost – netværksfejl –']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og søgelinje']", 30000, null, "c1d5952a-b435-4cec-a56b-fefff9b515bc");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f7b1980f-ac83-405a-a951-18633b41c2fb")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f7b1980f-ac83-405a-a951-18633b41c2fb")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AdresseOgSogelinje item.
+            /// </summary>
+            [RepositoryItem("851e2ccc-f230-4ece-8495-b6d26bb168ae")]
+            public virtual Ranorex.Text AdresseOgSogelinje
+            {
+                get
+                {
+                    return _adresseogsogelinjeInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AdresseOgSogelinje item info.
+            /// </summary>
+            [RepositoryItemInfo("851e2ccc-f230-4ece-8495-b6d26bb168ae")]
+            public virtual RepoItemInfo AdresseOgSogelinjeInfo
+            {
+                get
+                {
+                    return _adresseogsogelinjeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AdresseOgSogelinje1 item.
+            /// </summary>
+            [RepositoryItem("c1d5952a-b435-4cec-a56b-fefff9b515bc")]
+            public virtual Ranorex.Text AdresseOgSogelinje1
+            {
+                get
+                {
+                    return _adresseogsogelinje1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AdresseOgSogelinje1 item info.
+            /// </summary>
+            [RepositoryItemInfo("c1d5952a-b435-4cec-a56b-fefff9b515bc")]
+            public virtual RepoItemInfo AdresseOgSogelinje1Info
+            {
+                get
+                {
+                    return _adresseogsogelinje1Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The NyFaneAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("95a81178-cf32-44a5-9b71-6708677d5bb2")]
+        public partial class NyFaneAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new NyFane  folder.
+            /// </summary>
+            public NyFaneAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("NyFane", "/dom[@domain='newtab']", parentFolder, 30000, null, false, "95a81178-cf32-44a5-9b71-6708677d5bb2", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("95a81178-cf32-44a5-9b71-6708677d5bb2")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("95a81178-cf32-44a5-9b71-6708677d5bb2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

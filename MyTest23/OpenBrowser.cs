@@ -79,336 +79,86 @@ namespace MyTest23
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinje' at 394;18.", repo.MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinjeInfo, new RecordItemIndex(0));
-            repo.MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinje.Click("394;18");
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://localhost' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://localhost", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'loca' with focus on 'MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinje'.", repo.MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinjeInfo, new RecordItemIndex(1));
-            repo.MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinje.PressKeys("loca");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=0,Y=0}.", new RecordItemIndex(1));
+            Mouse.MoveTo(0, 0);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Right}{Back}{Back}{Return}' with focus on 'MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinje'.", repo.MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinjeInfo, new RecordItemIndex(2));
-            repo.MeedomComJorgenMeedomdkPhpGoogleC.AdresseOgSogelinje.PressKeys("{Right}{Back}{Back}{Return}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.DaDK' at 58;18.", repo.WordPressInstallation.DaDKInfo, new RecordItemIndex(3));
-            repo.WordPressInstallation.DaDK.Click("58;18");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.LanguageContinue' at 37;33.", repo.WordPressInstallation.LanguageContinueInfo, new RecordItemIndex(4));
-            repo.WordPressInstallation.LanguageContinue.Click("37;33");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.WeblogTitle' at 51;21.", repo.WordPressInstallation.WeblogTitleInfo, new RecordItemIndex(5));
-            repo.WordPressInstallation.WeblogTitle.Click("51;21");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Meedom' with focus on 'WordPressInstallation.WeblogTitle'.", repo.WordPressInstallation.WeblogTitleInfo, new RecordItemIndex(6));
-            repo.WordPressInstallation.WeblogTitle.PressKeys("Meedom");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.UserLogin' at 73;20.", repo.WordPressInstallation.UserLoginInfo, new RecordItemIndex(7));
-            repo.WordPressInstallation.UserLogin.Click("73;20");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}jmeedom' with focus on 'WordPressInstallation.UserLogin'.", repo.WordPressInstallation.UserLoginInfo, new RecordItemIndex(8));
-            repo.WordPressInstallation.UserLogin.PressKeys("{Back}jmeedom");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Setup.AdminPassword' at 110;24.", repo.WordPressInstallation.Setup.AdminPasswordInfo, new RecordItemIndex(9));
-            repo.WordPressInstallation.Setup.AdminPassword.Click("110;24");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'WordPressInstallation.Setup.AdminPassword' at 259;24.", repo.WordPressInstallation.Setup.AdminPasswordInfo, new RecordItemIndex(10));
-            repo.WordPressInstallation.Setup.AdminPassword.MoveTo("259;24");
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'WordPressInstallation.Setup.AdminPassword' at -122;13.", repo.WordPressInstallation.Setup.AdminPasswordInfo, new RecordItemIndex(11));
-            repo.WordPressInstallation.Setup.AdminPassword.MoveTo("-122;13");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'cicero1000' with focus on 'WordPressInstallation.Setup.AdminPassword'.", repo.WordPressInstallation.Setup.AdminPasswordInfo, new RecordItemIndex(12));
-            repo.WordPressInstallation.Setup.AdminPassword.PressKeys("cicero1000");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.AdminEmail' at 153;15.", repo.WordPressInstallation.AdminEmailInfo, new RecordItemIndex(13));
-            repo.WordPressInstallation.AdminEmail.Click("153;15");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'jorgen{LControlKey down}{RMenu down}{D2}{RMenu up}{LControlKey up}{LControlKey up}meedom.com' with focus on 'WordPressInstallation.AdminEmail'.", repo.WordPressInstallation.AdminEmailInfo, new RecordItemIndex(14));
-            repo.WordPressInstallation.AdminEmail.PressKeys("jorgen{LControlKey down}{RMenu down}{D2}{RMenu up}{LControlKey up}{LControlKey up}meedom.com");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Submit' at 123;15.", repo.WordPressInstallation.SubmitInfo, new RecordItemIndex(15));
-            repo.WordPressInstallation.Submit.Click("123;15");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Submit' at 120;22.", repo.WordPressInstallation.SubmitInfo, new RecordItemIndex(16));
-            repo.WordPressInstallation.Submit.Click("120;22");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Submit' at 120;22.", repo.WordPressInstallation.SubmitInfo, new RecordItemIndex(17));
-            repo.WordPressInstallation.Submit.Click("120;22");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'WordPressInstallation.AdminEmail'.", repo.WordPressInstallation.AdminEmailInfo, new RecordItemIndex(18));
-            repo.WordPressInstallation.AdminEmail.PressKeys("{Return}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Setup.Step' at 542;5.", repo.WordPressInstallation.Setup.StepInfo, new RecordItemIndex(19));
-            repo.WordPressInstallation.Setup.Step.Click("542;5");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Setup.PwWeak' at 21;14.", repo.WordPressInstallation.Setup.PwWeakInfo, new RecordItemIndex(20));
-            repo.WordPressInstallation.Setup.PwWeak.Click("21;14");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Submit' at 111;28.", repo.WordPressInstallation.SubmitInfo, new RecordItemIndex(21));
-            repo.WordPressInstallation.Submit.Click("111;28");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation' at 706;509.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(22));
-            repo.WordPressInstallation.Self.Click("706;509");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 15;13.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(23));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.Click("15;13");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 6;13.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(24));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.MoveTo("6;13");
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 57;13.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(25));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.MoveTo("57;13");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 232;3.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(26));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.Click("232;3");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'c' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(2));
             repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("c");
+            Keyboard.Press("{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 221;13.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(28));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.Click("221;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.LanguageContinue' at 67;21.", repo.WordPressInstallation.LanguageContinueInfo, new RecordItemIndex(3));
+            repo.WordPressInstallation.LanguageContinue.Click("67;21");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}c' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'meedom{Tab}jmeedom{Tab}' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(4));
             repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("{Back}c");
+            Keyboard.Press("meedom{Tab}jmeedom{Tab}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.Jmeedom' at 86;37.", repo.WordPressInstallation.FormTableInstallSuccess.JmeedomInfo, new RecordItemIndex(30));
-            repo.WordPressInstallation.FormTableInstallSuccess.Jmeedom.Click("86;37");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 47;19.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(31));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.DoubleClick("47;19");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 7;13.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(32));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.MoveTo("7;13");
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 199;-16.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(33));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.MoveTo("199;-16");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode' at 254;-19.", repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskodeInfo, new RecordItemIndex(34));
-            repo.WordPressInstallation.FormTableInstallSuccess.DinValgteAdgangskode.Click("254;-19");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1680 units.", new RecordItemIndex(35));
-            Mouse.ScrollWheel(-1680);
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'WordPressInstallation.FormTableInstallSuccess.SomeTdTag' at 96;35.", repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTagInfo, new RecordItemIndex(36));
-            repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTag.MoveTo("96;35");
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -120 units.", new RecordItemIndex(37));
-            Mouse.ScrollWheel(-120);
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'WordPressInstallation.FormTableInstallSuccess.SomeTdTag' at 96;35.", repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTagInfo, new RecordItemIndex(38));
-            repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTag.MoveTo("96;35");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.SomeTdTag' at 96;35.", repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTagInfo, new RecordItemIndex(39));
-            repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTag.Click("96;35");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'a' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'cicero1000' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(5));
             repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("a");
+            Keyboard.Press("cicero1000");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.Jmeedom' at 32;34.", repo.WordPressInstallation.FormTableInstallSuccess.JmeedomInfo, new RecordItemIndex(41));
-            repo.WordPressInstallation.FormTableInstallSuccess.Jmeedom.Click("32;34");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.Jmeedom' at 125;34.", repo.WordPressInstallation.FormTableInstallSuccess.JmeedomInfo, new RecordItemIndex(42));
-            repo.WordPressInstallation.FormTableInstallSuccess.Jmeedom.Click("125;34");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.FormTableInstallSuccess.SomeTdTag' at 25;24.", repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTagInfo, new RecordItemIndex(43));
-            repo.WordPressInstallation.FormTableInstallSuccess.SomeTdTag.Click("25;24");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.LogInd' at 63;28.", repo.WordPressInstallation.LogIndInfo, new RecordItemIndex(44));
-            repo.WordPressInstallation.LogInd.Click("63;28");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'jmeedom{Tab}cicero1000' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(6));
             repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("jmeedom{Tab}cicero1000");
+            Keyboard.Press("{Tab}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.WpSubmit' at 84;22.", repo.WordPressInstallation.WpSubmitInfo, new RecordItemIndex(46));
-            repo.WordPressInstallation.WpSubmit.Click("84;22");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Setup.PwWeak' at 19;10.", repo.WordPressInstallation.Setup.PwWeakInfo, new RecordItemIndex(7));
+            repo.WordPressInstallation.Setup.PwWeak.Click("19;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation' at 1184;733.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(47));
-            repo.WordPressInstallation.Self.Click("1184;733");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.AdminEmail' at 66;29.", repo.WordPressInstallation.AdminEmailInfo, new RecordItemIndex(8));
+            repo.WordPressInstallation.AdminEmail.Click("66;29");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Meedom' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(48));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'jorgen' with focus on 'WordPressInstallation.AdminEmail'.", repo.WordPressInstallation.AdminEmailInfo, new RecordItemIndex(9));
+            repo.WordPressInstallation.AdminEmail.PressKeys("jorgen");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{RMenu down}{D2}{LControlKey up}{RMenu up}{LControlKey up}meedom.com' with focus on 'WordPressInstallation.AdminEmail'.", repo.WordPressInstallation.AdminEmailInfo, new RecordItemIndex(10));
+            repo.WordPressInstallation.AdminEmail.PressKeys("{LControlKey down}{RMenu down}{D2}{LControlKey up}{RMenu up}{LControlKey up}meedom.com");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Submit' at 112;23.", repo.WordPressInstallation.SubmitInfo, new RecordItemIndex(11));
+            repo.WordPressInstallation.Submit.Click("112;23");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(12));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation' at 460;608.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(13));
+            repo.WordPressInstallation.Self.Click("460;608");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(14));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'jmeedom' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(15));
             repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("Meedom");
+            Keyboard.Press("jmeedom");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Content' at 114;76.", repo.WordPressInstallation.ContentInfo, new RecordItemIndex(49));
-            repo.WordPressInstallation.Content.Click("114;76");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation' at 817;541.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(16));
+            repo.WordPressInstallation.Self.Click("817;541");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '' with focus on 'WordPressInstallation.Content'.", repo.WordPressInstallation.ContentInfo, new RecordItemIndex(50));
-            repo.WordPressInstallation.Content.PressKeys("");
-            Delay.Milliseconds(20);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey up}Wor' with focus on 'WordPressInstallation.Content'.", repo.WordPressInstallation.ContentInfo, new RecordItemIndex(51));
-            repo.WordPressInstallation.Content.PressKeys("{LShiftKey up}Wor");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ldPress ' with focus on 'WordPressInstallation.Content'.", repo.WordPressInstallation.ContentInfo, new RecordItemIndex(52));
-            repo.WordPressInstallation.Content.PressKeys("ldPress ");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'e' with focus on 'WordPressInstallation.Content'.", repo.WordPressInstallation.ContentInfo, new RecordItemIndex(53));
-            repo.WordPressInstallation.Content.PressKeys("e");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}sample' with focus on 'WordPressInstallation.Content'.", repo.WordPressInstallation.ContentInfo, new RecordItemIndex(54));
-            repo.WordPressInstallation.Content.PressKeys("{Back}sample");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.SavePost' at 74;12.", repo.WordPressInstallation.SavePostInfo, new RecordItemIndex(55));
-            repo.WordPressInstallation.SavePost.Click("74;12");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.Inside' at 53;419.", repo.WordPressInstallation.InsideInfo, new RecordItemIndex(56));
-            repo.WordPressInstallation.Inside.Click("53;419");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation' at 1782;296.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(57));
-            repo.WordPressInstallation.Self.Click("1782;296");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.BlockEditorWritingFlowClickRedirec' at 877;194.", repo.WordPressInstallation.EditPostLayout.BlockEditorWritingFlowClickRedirecInfo, new RecordItemIndex(58));
-            repo.WordPressInstallation.EditPostLayout.BlockEditorWritingFlowClickRedirec.Click("877;194");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.BlockLibraryClassicToolbarHasAdvan' at 199;36.", repo.WordPressInstallation.EditPostLayout.BlockLibraryClassicToolbarHasAdvanInfo, new RecordItemIndex(59));
-            repo.WordPressInstallation.EditPostLayout.BlockLibraryClassicToolbarHasAdvan.Click("199;36");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'den ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(60));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'cicero1000' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(17));
             repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("den ");
+            Keyboard.Press("cicero1000");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'gode historie. {LShiftKey down}Ø{LShiftKey up}vigs seneste bog om ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(61));
-            repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("gode historie. {LShiftKey down}Ø{LShiftKey up}vigs seneste bog om ");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.WpSubmit' at 38;26.", repo.WordPressInstallation.WpSubmitInfo, new RecordItemIndex(18));
+            repo.WordPressInstallation.WpSubmit.Click("38;26");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'sin mor{LShiftKey down}{Right 11}{Right}{Right}{Right}{Right}{Right}{Right}{LShiftKey up} ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(62));
-            repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("sin mor{LShiftKey down}{Right 11}{Right}{Right}{Right}{Right}{Right}{Right}{LShiftKey up} ");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(63));
-            repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("{Back}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '. Har netop læst den. Meget ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(64));
-            repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press(". Har netop læst den. Meget ");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'stor ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(65));
-            repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("stor ");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back down}t indtryk ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(66));
-            repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("{Back down}t indtryk ");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'efterlades' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(67));
-            repo.WordPressInstallation.Self.EnsureVisible();
-            Keyboard.Press("efterlades");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'MeedomComJorgenMeedomdkPhpGoogleC.PageTabList' at 1268;23.", repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabListInfo, new RecordItemIndex(68));
-            repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabList.MoveTo("1268;23");
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'MeedomComJorgenMeedomdkPhpGoogleC.PageTabList' at 421;34.", repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabListInfo, new RecordItemIndex(69));
-            repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabList.MoveTo("421;34");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.Udgiv' at 35;30.", repo.WordPressInstallation.EditPostLayout.UdgivInfo, new RecordItemIndex(70));
-            repo.WordPressInstallation.EditPostLayout.Udgiv.Click("35;30");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.ErDuKlarTilAtUdgive' at 104;22.", repo.WordPressInstallation.EditPostLayout.ErDuKlarTilAtUdgiveInfo, new RecordItemIndex(71));
-            repo.WordPressInstallation.EditPostLayout.ErDuKlarTilAtUdgive.Click("104;22");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.Ojeblikkeligt' at 48;13.", repo.WordPressInstallation.EditPostLayout.OjeblikkeligtInfo, new RecordItemIndex(72));
-            repo.WordPressInstallation.EditPostLayout.Ojeblikkeligt.Click("48;13");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.TdTag10' at 17;32.", repo.WordPressInstallation.EditPostLayout.TdTag10Info, new RecordItemIndex(73));
-            repo.WordPressInstallation.EditPostLayout.TdTag10.Click("17;32");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.Udgiv1' at 46;14.", repo.WordPressInstallation.EditPostLayout.Udgiv1Info, new RecordItemIndex(74));
-            repo.WordPressInstallation.EditPostLayout.Udgiv1.Click("46;14");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.VisIndlaeg' at 54;20.", repo.WordPressInstallation.EditPostLayout.VisIndlaegInfo, new RecordItemIndex(75));
-            repo.WordPressInstallation.EditPostLayout.VisIndlaeg.Click("54;20");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'WordPressInstallation.DenGodeHistorieOvigsSenesteBogOm'.", repo.WordPressInstallation.DenGodeHistorieOvigsSenesteBogOmInfo, new RecordItemIndex(76));
-            Validate.Exists(repo.WordPressInstallation.DenGodeHistorieOvigsSenesteBogOmInfo);
-            Delay.Milliseconds(100);
             
         }
 

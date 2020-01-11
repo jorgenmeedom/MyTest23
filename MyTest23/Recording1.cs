@@ -79,6 +79,88 @@ namespace MyTest23
 
             Init();
 
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.BlockLibraryClassicToolbarHasAdvan' at 199;36.", repo.WordPressInstallation.EditPostLayout.BlockLibraryClassicToolbarHasAdvanInfo, new RecordItemIndex(0));
+            //repo.WordPressInstallation.EditPostLayout.BlockLibraryClassicToolbarHasAdvan.Click("199;36");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'den ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(1));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press("den ");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'gode historie. {LShiftKey down}Ø{LShiftKey up}vigs seneste bog om ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(2));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press("gode historie. {LShiftKey down}Ø{LShiftKey up}vigs seneste bog om ");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'sin mor{LShiftKey down}{Right 11}{Right}{Right}{Right}{Right}{Right}{Right}{LShiftKey up} ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(3));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press("sin mor{LShiftKey down}{Right 11}{Right}{Right}{Right}{Right}{Right}{Right}{LShiftKey up} ");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(4));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press("{Back}");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '. Har netop læst den. Meget ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(5));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press(". Har netop læst den. Meget ");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'stor ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(6));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press("stor ");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back down}t indtryk ' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(7));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press("{Back down}t indtryk ");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'efterlades' with focus on 'WordPressInstallation'.", repo.WordPressInstallation.SelfInfo, new RecordItemIndex(8));
+            //repo.WordPressInstallation.Self.EnsureVisible();
+            //Keyboard.Press("efterlades");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'MeedomComJorgenMeedomdkPhpGoogleC.PageTabList' at 1268;23.", repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabListInfo, new RecordItemIndex(9));
+            //repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabList.MoveTo("1268;23");
+            //Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'MeedomComJorgenMeedomdkPhpGoogleC.PageTabList' at 421;34.", repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabListInfo, new RecordItemIndex(10));
+            //repo.MeedomComJorgenMeedomdkPhpGoogleC.PageTabList.MoveTo("421;34");
+            //Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.Udgiv' at 35;30.", repo.WordPressInstallation.EditPostLayout.UdgivInfo, new RecordItemIndex(11));
+            //repo.WordPressInstallation.EditPostLayout.Udgiv.Click("35;30");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.ErDuKlarTilAtUdgive' at 104;22.", repo.WordPressInstallation.EditPostLayout.ErDuKlarTilAtUdgiveInfo, new RecordItemIndex(12));
+            //repo.WordPressInstallation.EditPostLayout.ErDuKlarTilAtUdgive.Click("104;22");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.Ojeblikkeligt' at 48;13.", repo.WordPressInstallation.EditPostLayout.OjeblikkeligtInfo, new RecordItemIndex(13));
+            //repo.WordPressInstallation.EditPostLayout.Ojeblikkeligt.Click("48;13");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.TdTag10' at 17;32.", repo.WordPressInstallation.EditPostLayout.TdTag10Info, new RecordItemIndex(14));
+            //repo.WordPressInstallation.EditPostLayout.TdTag10.Click("17;32");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.Udgiv1' at 46;14.", repo.WordPressInstallation.EditPostLayout.Udgiv1Info, new RecordItemIndex(15));
+            //repo.WordPressInstallation.EditPostLayout.Udgiv1.Click("46;14");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WordPressInstallation.EditPostLayout.VisIndlaeg' at 54;20.", repo.WordPressInstallation.EditPostLayout.VisIndlaegInfo, new RecordItemIndex(16));
+            //repo.WordPressInstallation.EditPostLayout.VisIndlaeg.Click("54;20");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'WordPressInstallation.DenGodeHistorieOvigsSenesteBogOm'.", repo.WordPressInstallation.DenGodeHistorieOvigsSenesteBogOmInfo, new RecordItemIndex(17));
+            //Validate.Exists(repo.WordPressInstallation.DenGodeHistorieOvigsSenesteBogOmInfo);
+            //Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

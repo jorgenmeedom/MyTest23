@@ -13,6 +13,7 @@
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>26b65c58-bae5-4cdb-a815-650ddc521c10</projectdefaultrepository>
+    <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -170,6 +171,18 @@
       <UserCode>true</UserCode>
       <id>ecf332f8-e3b1-482d-9aff-6f4b5943bd49</id>
     </Compile>
+    <Compile Include="Recording2.cs">
+      <BoundTo>583d9c5e-dc0d-465e-bb2e-4c2e19b65f6d</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>78ba4365-9fb8-449f-95d7-6b5486f2494e</id>
+    </Compile>
+    <Compile Include="Recording2.UserCode.cs">
+      <BoundTo>583d9c5e-dc0d-465e-bb2e-4c2e19b65f6d</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca6576f9-e6fc-424c-96cd-8faeec67f9b1</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -200,6 +213,11 @@
       <BoundTo>26b65c58-bae5-4cdb-a815-650ddc521c10</BoundTo>
       <id>67221930-0fdd-42f1-8b03-a746ca6eb2bc</id>
       <recordtableid>1443cd6b-0cab-4d23-b0cf-7028e73dd530</recordtableid>
+    </None>
+    <None Include="Recording2.rxrec">
+      <BoundTo>26b65c58-bae5-4cdb-a815-650ddc521c10</BoundTo>
+      <id>583d9c5e-dc0d-465e-bb2e-4c2e19b65f6d</id>
+      <recordtableid>2e1cbd99-2b49-4876-bf73-b870e22563ab</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

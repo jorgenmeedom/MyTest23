@@ -161,7 +161,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="679402c5-a5bd-4d32-8999-c69b68ad2f07"
 		isrooted="True"
 		name="WordPressInstallation"
-		refimgid="ec7f0981-8d56-494a-8a45-cf5680936896"
+		refimgid="b1198051-ab36-4fb5-96fb-362c2148c2fe"
 		refpath="/dom[@domain='localhost']"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -462,8 +462,156 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 					/dom[@domain='localhost']/body/table
 				</basepath>
 			</folder>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="7706c093-9c04-4040-8f52-729d988bece9"
+			name="Language"
+			refimgid="dec860d5-80c7-4142-afd5-003d926c27cf"
+			refpath="/dom[@domain='localhost']//select[#'language']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//select[#'language']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="cb8306c0-7bf5-4e6a-b8ad-dab2eb3847be"
+			name="Title"
+			refimgid="f9c3febc-2059-4415-8f5a-955b1545c846"
+			refpath="/dom[@domain='localhost']//input[#'title']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'title']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="77f0374a-60f7-4b0a-9704-9eadbda64c06"
+			name="TilpasDitWebsted"
+			refimgid="f6181ae7-661d-4ffe-aa06-e4cc181e92d2"
+			refpath="/dom[@domain='localhost']//div[#'welcome-panel']/div/div/div[1]/a[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//div[#'welcome-panel']/div/div/div[1]/a[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,h3tag"
+			capname="h3tag"
+			id="188de965-b968-4361-b0e6-fc1a8bc64715"
+			name="H3TagFarver"
+			refimgid="303ab7f3-bb97-40a0-bb51-e8dbf6e1c244"
+			refpath="/dom[@domain='localhost']//li[#'accordion-section-colors']/h3[@innertext='Farver']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//li[#'accordion-section-colors']/h3[@innertext='Farver']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="71d2bbb0-2eeb-452d-88d8-588d07b566fe"
+			name="Custom"
+			refimgid="cc3602f6-97a9-4974-a173-836de1796c75"
+			refpath="/dom[@domain='localhost']//li[#'customize-control-accent_hue_active']/span[3]/label[@innertext='Custom']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//li[#'customize-control-accent_hue_active']/?/?/label[@innertext='Custom']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c3e89168-dca9-4733-8c12-54ef9a01ea1e"
+			name="IrisSliderOffsetUiCornerAllUiSlid"
+			refimgid="d5e5e897-92a8-4bbd-b703-ab145f8acde6"
+			refpath="/dom[@domain='localhost']//li[#'customize-control-accent_hue']/div[2]/label/div/div/div[2]/div"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//li[#'customize-control-accent_hue']/div[2]/label/div/div/div[2]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="85ea9211-cab2-44eb-a802-0dbb45e6b9af"
+			name="Save"
+			refimgid="f181672b-2b97-403e-bfc2-4170010d0a49"
+			refpath="/dom[@domain='localhost']//input[#'save']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'save']
+			</item>
 			<basepath>
 				/dom[@domain='localhost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f7b1980f-ac83-405a-a951-18633b41c2fb"
+		isrooted="True"
+		name="NyFaneGoogleChrome"
+		refpath="/form[@title='Ny fane – Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="851e2ccc-f230-4ece-8495-b6d26bb168ae"
+			name="AdresseOgSogelinje"
+			refimgid="0f48d213-3f92-4b03-8555-56aa52d706a8"
+			refpath="/form[@title='Ny fane – Google Chrome']/container/container/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og søgelinje']"
+			searchtimeout="30000ms">
+				/form[@title='Ny fane &#8211; Google Chrome']/container[@accessiblename='Ny fane &#8211; Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og s&#248;gelinje']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="c1d5952a-b435-4cec-a56b-fefff9b515bc"
+			name="AdresseOgSogelinje1"
+			refimgid="67eb25bd-1f4b-430a-b22d-1c17d3aae4ee"
+			refpath="/form[@title='localhost – Google Chrome']/container/container/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og søgelinje']"
+			searchtimeout="30000ms">
+				/form[@title='Ny fane &#8211; Google Chrome']/container[@accessiblename&gt;'localhost &#8211; netv&#230;rksfejl &#8211;']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[2]/container[1]/text[@accessiblename='Adresse og s&#248;gelinje']
+			</item>
+			<basepath>
+				/form[@title='Ny fane &#8211; Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKrSURBVDhPrY9fSBNxHMAHPtpDaWlZLZCisPK9
+9ObdqXNzujnX5aazpqKRkQ8qgQQJvVQajQgCbW428y3RSX/UoYiGVJv9sSm6u0KqUWRlDtvSu33p
+fr87hxG99YUP93Kfz/f7U/zXqc/I2MKWa5g5U0EvV6rmOKN6lTPkrbEGOsTp6eEZPdnYlJmeIv/+
+97yvt9k5kwbYUjWwJXkSelqEgmBRDgR1KhFi8fvgoFJWpLHmZya+qimzL5gKovGAcVOgWAzo5ICW
+gLfGgrGm9E2XZN+qZDzabAiIP0pyviSX6YC1FAlBEy0EjQTPGrN5tuQ4zxqO8ZyZcDOMIgEHDvRU
+91LtFhgykLBQkgvvzlXBfJ8Hej1crPPBR35ifGItNNIc/TpARMOPiEhkRBWJjhJL3MPcoziwz13D
+Ke9Ww8U6DUyLp873DYLpRhiK2sKguxaG4vYwzARDsP66GmL+PAkfBcI0bcUBUV5FAbLdDMPFJNqM
+ZUShGNBeDUODcwWWZ9tkORcH4AXVjAN7um1rIoCobS2Djv4PePOGjLDdXoEvgZtygJYCfqoFB9K6
+baHdoozY76wC57iPR9uRqLkifd3j34SfgWZBkhEkCP6cWhxQ3rMN73Kdgg0qh67D1MInOC+ejTa7
+xpZgZq4/9uu5Gm/G7/erBHijzcKBtM6KxlRnJaSK8k4cOQ3E/Qtw1tsBDV4XNHguwecprbwZBUiI
+TdOTLnvOVhxINGam7HBaF0VAogKzvasCkjotYB/Qxzfj032q5dYzygwsb0xHwKtUuqvGkIRI7irH
+HHQwsPgkf5NMLguzdYys/TnoklRHeU+Sw/Jjm8MCSXfM8NhbGMNv9qkE3kdPXq7fe1j+/R/DMAmH
+HCePJHeZraqeE42Rp1SL8IyqXX+pzYq/OT4KxW9HQeOvzs+EMAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="95a81178-cf32-44a5-9b71-6708677d5bb2"
+		isrooted="True"
+		name="NyFane"
+		refimgid="96af73a3-b00c-4d67-aba1-8b854b09aa85"
+		refpath="/dom[@domain='newtab']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='newtab']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
